@@ -1,3 +1,4 @@
+---
 - name: Setup SSH keys for cloud-user
   authorized_key:
      user: cloud-user
@@ -32,3 +33,4 @@
           use_hostnames: True
           expand_hostvars: False
           fail_on_errors: True
+
